@@ -1,0 +1,192 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff6f6;
+    color: #333;
+}
+
+header {
+    background-color: #f97b7b;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffe4e4;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f97b7b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo{
+    float: left;
+    margin-left: 50px; 
+    margin-top: -20px;
+    width: 150px;
+    height: 150px;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.product img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+.product p {
+    color: #f97b7b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product button {
+    background-color: #f97b7b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hot h2{
+    background-color: #f97b7b;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner {
+
+    color: #f97b7b;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sect {
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+form {
+    text-align: left;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.field-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.input_radio[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+button {
+    background-color: #f97b7b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #f45e5e;
+}
+
+.zag {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.quest_radio_set input[type = "radio"]{
+    position: relative;
+}
+
+#contacts {
+   margin-bottom: 30%; 
+}
+
+#registration {
+    margin-bottom: 15%;
+}
+
+#questionnaire{
+    margin-bottom: 10%;
+}
